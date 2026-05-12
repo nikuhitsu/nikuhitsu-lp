@@ -177,12 +177,12 @@ export default function Home() {
             <p className="text-gray-300 mb-8">
               ローンチ時の早期アクセス権、価格優遇、開発過程のフィードバック機会をご提供します。
             </p>
-            {/* Kit (ConvertKit) Form Embed */}
+            {/* Kit (ConvertKit) Inline Form Embed - 新アカウント版(2026-05-12 切替) */}
             <div className="kit-form-container">
               <Script
                 async
-                data-uid="46a1918061"
-                src="https://nikuhitsu.kit.com/46a1918061/index.js"
+                data-uid="c76e96f837"
+                src="https://nikuhitsu-2.kit.com/c76e96f837/index.js"
               />
             </div>
           </div>
