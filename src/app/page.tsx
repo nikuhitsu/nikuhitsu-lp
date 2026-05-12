@@ -1,4 +1,4 @@
-import Script from "next/script";
+import { KitForm } from "@/components/KitForm";
 
 export default function Home() {
   return (
@@ -177,14 +177,8 @@ export default function Home() {
             <p className="text-gray-300 mb-8">
               ローンチ時の早期アクセス権、価格優遇、開発過程のフィードバック機会をご提供します。
             </p>
-            {/* Kit (ConvertKit) Inline Form Embed - 新アカウント版(2026-05-12 切替) */}
-            <div className="kit-form-container">
-              <Script
-                async
-                data-uid="c76e96f837"
-                src="https://nikuhitsu-2.kit.com/c76e96f837/index.js"
-              />
-            </div>
+            {/* Kit (ConvertKit) Inline Form - client side script inject で位置を確定 */}
+            <KitForm />
           </div>
         </section>
 
