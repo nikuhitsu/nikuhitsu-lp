@@ -232,7 +232,9 @@ export default function Home() {
                 </summary>
                 <p className="mt-3 text-gray-600 text-sm leading-relaxed">
                   ローンチ時に確定し、早期アクセスにご登録いただいた方には先にご案内します。
-                  月額1,000円前後の個人プランを想定しています。
+                  現時点では、業界の他のクリエイター向けSaaSと同等の月額帯
+                  （数百〜数千円）を想定しています。具体的な価格はクリエイターの方々の
+                  ご意見を伺いながら決めます。
                 </p>
               </details>
               <details className="border-b border-gray-200 pb-4">
