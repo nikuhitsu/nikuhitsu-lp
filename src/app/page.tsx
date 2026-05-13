@@ -232,16 +232,33 @@ export default function Home() {
                 </summary>
                 <p className="mt-3 text-gray-600 text-sm leading-relaxed">
                   クリエイターの方々の活動の妨げにならない料金体系を最重要視しています。
-                  現時点では以下のような構成を想定しています：
+                  個人クリエイターのみなさまは <strong>枚数制限なしで完全無料</strong> でご利用いただけます。
                 </p>
                 <ul className="mt-3 text-gray-600 text-sm leading-relaxed list-disc list-inside space-y-1 ml-2">
-                  <li><strong>無料プラン</strong>：月数点のご利用なら完全無料で使えます</li>
-                  <li><strong>個人プラン</strong>：業界の他のクリエイター向けSaaSと同等の月額帯（数百〜数千円）</li>
-                  <li><strong>法人向け</strong>：出版社・印刷会社・著作権管理団体等は個別にご相談</li>
+                  <li><strong>個人プラン</strong>：完全無料、枚数制限なし、基本署名・検証機能フル提供</li>
+                  <li><strong>Pro プラン（月額980円）</strong>：Pro 9機能 — タイムラプスの C2PA 紐付け、編集セッション履歴検索、複数バージョン保管、高解像度 Soft Binding、クライアント別履歴、業務 SaaS 連携、MCP サーバ高度機能、優先サポート（月1問合せまで）、β機能先行利用</li>
+                  <li><strong>法人向け</strong>：出版社・印刷会社・法律事務所・著作権管理団体等は個別にご相談（月額5万円～）</li>
                 </ul>
                 <p className="mt-3 text-gray-600 text-sm leading-relaxed">
-                  具体的な価格はクリエイターの方々のご意見を伺いながら、ローンチ前に確定します。
-                  早期アクセスにご登録いただいた方には先にご案内します。
+                  個人クリエイターは無料、収益は Pro プランと法人向けで支えます。
+                  早期アクセスにご登録いただいた方には Pro プラン優待などを先にご案内します。
+                </p>
+              </details>
+              <details className="border-b border-gray-200 pb-4">
+                <summary className="font-medium cursor-pointer hover:text-gray-600">
+                  Adobe Content Authenticity との違いは何ですか？
+                </summary>
+                <p className="mt-3 text-gray-600 text-sm leading-relaxed">
+                  Adobe Content Authenticity（無料パブリックベータ）と Nikuhitsu は補完関係にあります。
+                  Adobe のウェブアプリは「アップロードした画像が改ざんなく特定の人物に紐付くこと」（原本性証明）を提供します。Nikuhitsu も同じ層を完全無料で提供します。
+                </p>
+                <p className="mt-3 text-gray-600 text-sm leading-relaxed">
+                  Nikuhitsu の独自性は、Phase 1 公開時に予定している
+                  <strong>CLIP STUDIO PAINT プラグイン連携</strong>です。クリスタで描いた編集アクション履歴やレイヤー情報も含めて
+                  「人間が作った」を技術的に担保します。Adobe Photoshop / Lightroom は同等機能をネイティブ統合していますが、CLIP STUDIO PAINT、Procreate 等のクリスタユーザーへの統合は提供されていません。
+                </p>
+                <p className="mt-3 text-gray-600 text-sm leading-relaxed">
+                  Adobe Creative Cloud 圏外のクリエイターのために、日本制作ツールでの「ヒューマンメイド担保」を実現することが Nikuhitsu のミッションです。
                 </p>
               </details>
               <details className="border-b border-gray-200 pb-4">
