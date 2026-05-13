@@ -231,10 +231,17 @@ export default function Home() {
                   価格はいくらですか？
                 </summary>
                 <p className="mt-3 text-gray-600 text-sm leading-relaxed">
-                  ローンチ時に確定し、早期アクセスにご登録いただいた方には先にご案内します。
-                  現時点では、業界の他のクリエイター向けSaaSと同等の月額帯
-                  （数百〜数千円）を想定しています。具体的な価格はクリエイターの方々の
-                  ご意見を伺いながら決めます。
+                  クリエイターの方々の活動の妨げにならない料金体系を最重要視しています。
+                  現時点では以下のような構成を想定しています：
+                </p>
+                <ul className="mt-3 text-gray-600 text-sm leading-relaxed list-disc list-inside space-y-1 ml-2">
+                  <li><strong>無料プラン</strong>：月数点のご利用なら完全無料で使えます</li>
+                  <li><strong>個人プラン</strong>：業界の他のクリエイター向けSaaSと同等の月額帯（数百〜数千円）</li>
+                  <li><strong>法人向け</strong>：出版社・印刷会社・著作権管理団体等は個別にご相談</li>
+                </ul>
+                <p className="mt-3 text-gray-600 text-sm leading-relaxed">
+                  具体的な価格はクリエイターの方々のご意見を伺いながら、ローンチ前に確定します。
+                  早期アクセスにご登録いただいた方には先にご案内します。
                 </p>
               </details>
               <details className="border-b border-gray-200 pb-4">
