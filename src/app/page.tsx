@@ -251,9 +251,14 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-gray-200">
-        <div className="max-w-5xl mx-auto text-center text-sm text-gray-500">
-          <p className="mb-2">Nikuhitsu（肉筆） - 人間制作証明 SaaS</p>
+        <div className="max-w-5xl mx-auto text-center text-sm text-gray-500 space-y-2">
+          <p>Nikuhitsu（肉筆） - 人間制作証明 SaaS</p>
           <p>© 2026 Nikuhitsu. All rights reserved.</p>
+          <p className="text-xs pt-2 text-gray-400">
+            本サイトは UI にデジタル庁デザインシステム（CC BY 4.0）を一部利用しています。
+            アクセス解析のため Google Analytics 4 / Microsoft Clarity を利用しており、
+            個人を特定しない範囲でアクセス情報を収集しています。
+          </p>
         </div>
       </footer>
     </div>
