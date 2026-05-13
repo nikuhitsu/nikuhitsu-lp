@@ -254,8 +254,8 @@ export default function Home() {
                 </p>
                 <p className="mt-3 text-gray-600 text-sm leading-relaxed">
                   Nikuhitsu の独自性は、Phase 1 公開時に予定している
-                  <strong>CLIP STUDIO PAINT プラグイン連携</strong>です。クリスタで描いた編集アクション履歴やレイヤー情報も含めて
-                  「人間が作った」を技術的に担保します。Adobe Photoshop / Lightroom は同等機能をネイティブ統合していますが、CLIP STUDIO PAINT、Procreate 等のクリスタユーザーへの統合は提供されていません。
+                  <strong>Nikuhitsu 専用デスクトップアプリ</strong>です。CLIP STUDIO PAINT・Procreate・メディバンペイント等で書き出されたタイムラプス動画や作業ファイルを自動的に C2PA Manifest と紐付け、
+                  「人間が作った」を技術的に担保します。Adobe Photoshop / Lightroom は同等機能をネイティブ統合していますが、Adobe Creative Cloud 圏外のクリエイターへの統合は提供されていません。
                 </p>
                 <p className="mt-3 text-gray-600 text-sm leading-relaxed">
                   Adobe Creative Cloud 圏外のクリエイターのために、日本制作ツールでの「ヒューマンメイド担保」を実現することが Nikuhitsu のミッションです。
