@@ -70,7 +70,7 @@ export default function Home() {
             </ul>
             <div className="mt-12 p-6 bg-white rounded-lg border border-gray-200">
               <p className="text-gray-700 leading-relaxed">
-                2026年、欧州でAI規制（EU AI Act）が施行され、AIコンテンツの表示義務が始まります。
+                2026年8月から、欧州でAI Act 第50条（AI生成コンテンツの透明性義務）が段階的に適用されます。
                 日本でも2025年10月、出版社17社・漫画家協会・動画協会が「生成AI時代の創作と権利」に関する共同声明を発表しました。
               </p>
               <p className="mt-4 font-medium text-gray-900">
@@ -253,9 +253,9 @@ export default function Home() {
                   Adobe のウェブアプリは「アップロードした画像が改ざんなく特定の人物に紐付くこと」（原本性証明）を提供します。Nikuhitsu も同じ層を完全無料で提供します。
                 </p>
                 <p className="mt-3 text-gray-600 text-sm leading-relaxed">
-                  Nikuhitsu の独自性は、Phase 1 公開時に予定している
+                  Nikuhitsu の独自性は、サービス公開時に予定している
                   <strong>Nikuhitsu 専用デスクトップアプリ</strong>です。CLIP STUDIO PAINT・Procreate・メディバンペイント等で書き出されたタイムラプス動画や作業ファイルを自動的に C2PA Manifest と紐付け、
-                  「人間が作った」を技術的に担保します。Adobe Photoshop / Lightroom は同等機能をネイティブ統合していますが、Adobe Creative Cloud 圏外のクリエイターへの統合は提供されていません。
+                  「人間が作った」を技術的に担保します。Adobe Photoshop / Lightroom はエクスポート時の手動 opt-in で対応していますが、Adobe Creative Cloud 圏外の制作ツールユーザーへの統合は提供されていません。
                 </p>
                 <p className="mt-3 text-gray-600 text-sm leading-relaxed">
                   Adobe Creative Cloud 圏外のクリエイターのために、日本制作ツールでの「ヒューマンメイド担保」を実現することが Nikuhitsu のミッションです。
